@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>⚡ Calculadora del Teorema de Fortescue y Analizador de Fallas en SEP</h1>
-  <p><strong>Herramienta interactiva para el análisis de componentes simétricas y localización de fallas en líneas de transmisión ⚡</strong></p>
+  <h1>⚡ Calculadora del Teorema de Fortescue y Analizador de Fallas en SEP ⚡</h1>
+  <p><strong>Herramienta interactiva para el análisis de componentes simétricas y localización de fallas en líneas de transmisión</strong></p>
 </div>
 <hr>
 
