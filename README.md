@@ -2,7 +2,11 @@
   <h1>⚡ Calculadora del Teorema de Fortescue y Analizador de Fallas en SEP</h1>
   <p><strong>Herramienta interactiva para el análisis de componentes simétricas y localización de fallas en líneas de transmisión.</strong></p>
 </div>
-
+<div align="center">
+  <a href="https://jorgeraul9-calcu-fasores-fortescue.streamlit.app/" target="_blank">
+    <img src="https://static.streamlit.io/badges/streamlit_badge_black__white.svg" alt="Abrir en Streamlit">
+  </a>
+</div>
 <hr>
 
 <h2>📌 Características Principales</h2>
