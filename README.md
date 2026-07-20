@@ -11,27 +11,17 @@
 
 <h2>📌 Características Principales</h2>
 <ul>
-  <li>
-    <strong>Análisis de Fasores (Fortescue):</strong>
-    <ul>
-      <li>Transformación de componentes de fase (<i>I<sub>R</sub>, I<sub>S</sub>, I<sub>T</sub></i>) a componentes simétricas de secuencia (<i>I<sub>0</sub>, I<sub>1</sub>, I<sub>2</sub></i>).</li>
-      <li>Representación gráfica polar interactiva de fasores de fase y de secuencia.</li>
-    </ul>
-  </li>
-  <li>
-    <strong>Localización y Clasificación de Fallas en Líneas de Transmisión:</strong>
-    <ul>
-      <li><strong>Clasificación Automática de Fallas:</strong> Identificación precisa del tipo de evento:
-        <ul>
-          <li>Monofásica a Tierra (<i>R-G, S-G, T-G</i>).</li>
-          <li>Bifásica a Tierra (<i>R-S-G, S-T-G, T-R-G</i>).</li>
-          <li>Bifásica Aislada (<i>R-S, S-T, T-R</i>).</li>
-        </ul>
-      </li>
-      <li><strong>Estimación de Distancia de Falla:</strong> Cálculo de la impedancia vista (<i>Z<sub>vista</sub></i>) y distancia en kilómetros utilizando el método de reactancia simple y factor de compensación homopolar (<i>k<sub>0</sub></i>).</li>
-      <li><strong>Direccionalidad de Protecciones:</strong> Evaluación del sentido de la falla (<b>Adelante / Forward</b> o <b>Atrás / Reverse</b>) mediante el fasor de impedancia de secuencia negativa (<i>Z<sub>2</sub> = V<sub>2</sub> / I<sub>2</sub></i>).</li>
-    </ul>
-  </li>
+  <p>
+  Esta aplicación es una herramienta interactiva diseñada para el análisis fasorial en sistemas eléctricos de potencia (SEP) a través de la transformación de componentes simétricas mediante el Teorema de Fortescue. A partir de las corrientes de fase (<i>I<sub>R</sub>, I<sub>S</sub>, I<sub>T</sub></i>), el sistema realiza la conversión automática a componentes de secuencia (<i>I<sub>0</sub>, I<sub>1</sub>, I<sub>2</sub></i>) y ofrece una representación gráfica polar interactiva para visualizar con claridad el comportamiento de los fasores.
+</p>
+
+<p>
+  Asimismo, la plataforma integra un módulo especializado en la localización y clasificación automática de fallas en líneas de transmisión, capaz de discernir entre eventos monofásicos a tierra (<i>R-G, S-G, T-G</i>), bifásicos a tierra (<i>R-S-G, S-T-G, T-R-G</i>) y bifásicos aislados (<i>R-S, S-T, T-R</i>). A partir de dicha clasificación, estima la impedancia vista (<i>Z<sub>vista</sub></i>) y la distancia al punto de falla en kilómetros empleando el método de reactancia simple junto al factor de compensación homopolar (<i>k<sub>0</sub></i>). Finalmente, evalúa la direccionalidad de la protección (<b>Adelante / Forward</b> o <b>Atrás / Reverse</b>) mediante la impedancia de secuencia negativa (<i>Z<sub>2</sub> = V<sub>2</sub> / I<sub>2</sub></i>).
+</p>
+
+<blockquote style="background-color: #f9f9f9; border-left: 4px solid #ff4b4b; padding: 10px; margin: 10px 0;">
+  📌 <strong>Aviso:</strong> Actualmente estás explorando la <strong>versión Demo</strong> de la aplicación, configurada para la validación de cálculos y pruebas conceptuales del algoritmo.
+</blockquote>
 </ul>
 
 <hr>
