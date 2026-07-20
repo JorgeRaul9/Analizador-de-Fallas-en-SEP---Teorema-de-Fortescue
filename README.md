@@ -48,24 +48,15 @@
 <h3>2. Criterio de Clasificación de Fallas</h3>
 <p>El algoritmo evalúa la presencia de la corriente homopolar (<i>I<sub>0</sub></i>) y la relación entre las magnitudes de las corrientes de fase:</p>
 
-<pre>
-                          ┌───────────────────────────┐
-                          │    ¿ |I0| > 0 Amp?        │
-                          └─────────────┬─────────────┘
-                                        │
-                       ┌────────────────┴────────────────┐
-                       ▼                                 ▼
-                     [ SÍ ]                            [ NO ]
-            (Existe retorno por tierra)        (Falla sin contacto a tierra)
-                       │                                 │
-         ┌─────────────┴─────────────┐                   ▼
-         ▼                           ▼            Bifásica Aislada (X-Y)
-  ¿I_max > 1.3 * I_med?      ¿I_max <= 1.3 * I_med?  Z_vista = (V_X - V_Y) / (I_X - I_Y)
-         │                           │
-         ▼                           ▼
-  Monofásica (X-G)         Bifásica a Tierra (X-Y-G)
-Z_vista = V_X / (I_X + 3*I0*k0)  Z_vista = (V_X - V_Y) / (I_X - I_Y)
-</pre>
+<div align="center">
+
+| Paso 1: Verificación de Tierra | Paso 2: Evaluación de Fases | Clasificación de Falla | Fórmula de Impedancia ($Z$) |
+| :--- | :--- | :--- | :--- |
+| **Sí hay retorno ($I_0 \neq 0$)** | **1 sola fase alterada** (corriente dominante) | 🔴 **Monofásica a Tierra ($L-G$)** | $Z = \frac{V_{\text{fase}}}{I_{\text{fase}} + K_0 \cdot I_{\text{tierra}}}$ |
+| **Sí hay retorno ($I_0 \neq 0$)** | **2 fases alteradas** (magnitudes similares) | 🟠 **Bifásica a Tierra ($L-L-G$)** | $Z = \frac{V_{\text{fase-fase}}}{I_{\text{fase-fase}}}$ |
+| **No hay retorno ($I_0 = 0$)** | **2 fases alteradas** | 🟡 **Bifásica Aislada ($L-L$)** | $Z = \frac{V_{\text{fase-fase}}}{I_{\text{fase-fase}}}$ |
+
+</div>
 
 <hr>
 
