@@ -4,7 +4,7 @@
 </div>
 <hr>
 
-<h2>Aquí te comparto el link que te llevará al analizador</h2>
+<h2>Aquí te comparto el link que te llevará al analizador: </h2>
 <div align="center">
   <a href="https://jorgeraul9-calcu-fasores-fortescue.streamlit.app/" target="_blank">
     <img src="https://static.streamlit.io/badges/streamlit_badge_black__white.svg" alt="Abrir en Streamlit">
