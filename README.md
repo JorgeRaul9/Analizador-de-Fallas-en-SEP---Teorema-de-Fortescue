@@ -9,8 +9,12 @@
 </div>
 <hr>
 
-<h2>📌 Características Principales</h2>
+<h2>¿De qué se trata?</h2>
 <ul>
+  <p>
+  Para empezar, realizo este proyecto con fines netamente investigativos y en afán de lograr una automatización a nivel de cálculos eléctricos mediante software open source que faciliten las actividades de desarrollo de matemática con números complejos y cálculo fasorial.
+</p>
+  
   <p>
   Esta aplicación es una herramienta interactiva diseñada para el análisis fasorial en sistemas eléctricos de potencia (SEP) a través de la transformación de componentes simétricas mediante el Teorema de Fortescue. A partir de las corrientes de fase (<i>I<sub>R</sub>, I<sub>S</sub>, I<sub>T</sub></i>), el sistema realiza la conversión automática a componentes de secuencia (<i>I<sub>0</sub>, I<sub>1</sub>, I<sub>2</sub></i>) y ofrece una representación gráfica polar interactiva para visualizar con claridad el comportamiento de los fasores.
 </p>
