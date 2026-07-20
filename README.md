@@ -69,41 +69,6 @@ Z_vista = V_X / (I_X + 3*I0*k0)  Z_vista = (V_X - V_Y) / (I_X - I_Y)
 
 <hr>
 
-<h2>🚀 Requisitos e Instalación</h2>
-
-<h3>Prerrequisitos</h3>
-<p>Tener instalado <strong>Python 3.8+</strong>.</p>
-
-<h3>Instalación de dependencias</h3>
-<p>Clona este repositorio e instala las librerías necesarias:</p>
-
-<pre><code>git clone https://github.com/TU_USUARIO/NOMBRE_DEL_REPOSITORIO.git
-cd NOMBRE_DEL_REPOSITORIO
-pip install -r requirements.txt
-</code></pre>
-
-<h4>Contenido de <code>requirements.txt</code>:</h4>
-<pre><code>streamlit
-numpy
-matplotlib
-</code></pre>
-
-<div align="center">
-  <a href="https://TU-APP-DE-STREAMLIT.streamlit.app" target="_blank">
-    <img src="https://static.streamlit.io/badges/streamlit_badge_black__white.svg" alt="Abrir en Streamlit">
-  </a>
-</div>
-
-<hr>
-
-<h2>💻 Ejecución de la Aplicación</h2>
-<p>Para iniciar la interfaz web en tu navegador local, ejecuta:</p>
-
-<pre><code>streamlit run app.py
-</code></pre>
-
-<hr>
-
 <h2>🛠️ Tecnologías Utilizadas</h2>
 <ul>
   <li><strong>Python 3:</strong> Lenguaje base para los cálculos matemáticos y procesamiento fasorial.</li>
