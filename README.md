@@ -1,6 +1,6 @@
 <div align="center">
   <h1>⚡ Calculadora del Teorema de Fortescue y Analizador de Fallas en SEP</h1>
-  <p><strong>Herramienta interactiva para el análisis de componentes simétricas y localización de fallas en líneas de transmisión.</strong></p>
+  <p><strong>Herramienta interactiva para el análisis de componentes simétricas y localización de fallas en líneas de transmisión ⚡</strong></p>
 </div>
 <hr>
 
@@ -43,15 +43,16 @@
   <i>I<sub>2</sub> = ⅓ (I<sub>R</sub> + a² · I<sub>S</sub> + a · I<sub>T</sub>)</i>
 </p>
 
-<p><i>Donde a = e<sup>j120°</sup> = -0.5 + j(√3 / 2).</i></p>
+<p><i>Donde a = e<sup>j120°</sup> = -0.5 + j(√3 / 2) = 1<120°.</i></p>
 
 <h3>2. Criterio de Clasificación de Fallas</h3>
 <p>El algoritmo evalúa la presencia de la corriente homopolar (<i>I<sub>0</sub></i>) y la relación entre las magnitudes de las corrientes de fase:</p>
 
-<pre>
+<pre> 
+  <p align="center">
                             ┌──────────────────────────────┐
                             │ ¿Existe corriente a tierra?  │
-                            │      (|I₀| > 0 A o I_residual)│
+                            │   (|I₀| > 0 A o I_residual)  │
                             └──────────────┬───────────────┘
                                            │
                           ┌────────────────┴────────────────┐
@@ -76,6 +77,7 @@
    ────────────────────────    ───────────────────
    Corriente con compensación  Corriente Fase-Fase
         por tierra (K₀)
+    </p>
 </pre>
 
 
