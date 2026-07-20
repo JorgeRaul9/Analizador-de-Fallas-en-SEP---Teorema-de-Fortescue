@@ -50,37 +50,35 @@
 
 <pre> 
   <p align="center">
-                            ┌──────────────────────────────┐
-                            │ ¿Existe corriente a tierra?  │
-                            │   (|I₀| > 0 A o I_residual)  │
-                            └──────────────┬───────────────┘
-                                           │
-                          ┌────────────────┴────────────────┐
-                          ▼                                 ▼
-                      [ SÍ ]                              [ NO ]
-            (Falla con contacto a tierra)       (Falla limpia entre fases)
-                          │                                 │
-            ┌─────────────┴─────────────┐                   │
-            ▼                           ▼                   ▼
-  ¿Una sola fase domina?     ¿Dos fases con corrientes   Falla Bifásica Aislada
-(Una corriente es mucho más    elevadas y similares?             (L-L)
-    alta que las otras)                 │                   │
-            │                           │                   │
-            ▼                           ▼                   ▼
-     Falla Monofásica            Falla Bifásica          Impedancia medida:
-        a Tierra                    a Tierra             Tensión Fase-Fase
-         (L-G)                       (L-L-G)             ───────────────────
-            │                           │                Corriente Fase-Fase
-            ▼                           ▼
-    Impedancia medida:          Impedancia medida:
-     Tensión Fase-Tierra        Tensión Fase-Fase
-   ────────────────────────    ───────────────────
-   Corriente con compensación  Corriente Fase-Fase
-        por tierra (K₀)
+                             ┌──────────────────────────────┐
+                             │ ¿Existe corriente a tierra?  │
+                             │   (|I₀| > 0 A o I_residual)  │
+                             └──────────────┬───────────────┘
+                                            │
+                           ┌────────────────┴────────────────┐
+                           ▼                                 ▼
+                       [ SÍ ]                              [ NO ]
+             (Falla con contacto a tierra)       (Falla limpia entre fases)
+                           │                                 │
+             ┌─────────────┴─────────────┐                   │
+             ▼                           ▼                   ▼
+   ¿Una sola fase domina?     ¿Dos fases con corrientes   Falla Bifásica Aislada
+ (Una corriente es mucho más    elevadas y similares?             (L-L)
+     alta que las otras)                 │                   │
+             │                           │                   │
+             ▼                           ▼                   ▼
+      Falla Monofásica            Falla Bifásica          Impedancia medida:
+         a Tierra                    a Tierra             Tensión Fase-Fase
+          (L-G)                       (L-L-G)             ───────────────────
+             │                           │                Corriente Fase-Fase
+             ▼                           ▼
+     Impedancia medida:          Impedancia medida:
+      Tensión Fase-Tierra        Tensión Fase-Fase
+    ────────────────────────    ───────────────────
+    Corriente con compensación  Corriente Fase-Fase
+         por tierra (K₀)
     </p>
 </pre>
-
-
 
 <hr>
 
